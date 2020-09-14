@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#bedef4,#93c8ec);
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.center{
+    margin: 70px auto;
+    width: 540px;
+    border: 1px solid #243342;
+    border-radius: 5px;
+    position: relative;
+    background: #2c3e50;
+}
+.center .btns{
+    display: flex;
+    padding: 40px 0 20px 30px;
+}
+.btns a{
+    text-decoration: none;
+    padding: 10px 87px;
+    font-size: 20px;
+    color: #fff;
+    font-family: arial;
+    background: #1ABC9C;
+}
+a .a2{
+    background: #1ABC9C;
+}
+.center .header{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    padding: 5px 0 30px 0;
+}
+form input{
+    height: 30px;
+    width: 194px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #C7C6C6;
+    border-radius: 2px;
+    padding: 0 10px;
+    margin-left: 35px;
+    outline: none;
+    color: #fff;
+}
+::placeholder{
+    color: #C7C6C6;
+    font-size: 13px;
+}
+form input.1stname{
+    margin-left: 12px;
+}
+form input.email{
+    width: 450px;
+    margin-top: 20px;
+}
+form input[type="submit"]{
+    margin: 25px 0 10px 35px;
+    width: 475px;
+    height: 45px;
+    font-size: 23px;
+    cursor: pointer;
+    color: #fff;
+    background: #1ABC9C;
+    border: 1px solid #2573a7;
+}
+form input[type="submit"]:hover{
+    background: #1ABC9C;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.center .header1{
+    padding-bottom: 10px;
+}
+.center .login-form{
+    display: none;
+}
+.icons{
+    text-align: center;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+.icons ul li a{
+	background-image: url(icons.png);
+	background-repeat: no-repeat;
+	background-position: -21px -29px;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	border: 2px solid #777;
+	border-radius: 50%;
+    transition: 1s;
+}
+.icons ul li:hover:nth-child(1) a{
+	background-position: -21px -105px;
+}
+.icons ul li:nth-child(2) a{
+	background-position: -167px -31px;
+}
+.icons ul li:hover:nth-child(2) a{
+	background-position: -167px -105px;
+}
+.icons ul li:nth-child(3) a{
+	background-position: -311px -32px;
+}
+.icons ul li:hover:nth-child(3) a{
+	background-position: -311px -105px;
+}
